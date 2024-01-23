@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Anton', sans-serif;
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+    background-image: url('img/bg.jpg');
+    background-size: cover;
+}
+
+.overlay{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    flex-direction: column;
+}
+
+.overlay .title{
+    margin-top: 8vh;
+    font-size: 5vw;
+    text-align: center;
+}
+
+.col{
+    display: flex;
+    width: 1000px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+
+.col div{
+    width: 250px;
+    text-align: center;
+}
+
+input{
+    height: 50px;
+    width: 70%;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-color: transparent;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 3vw;
+}
